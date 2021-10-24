@@ -64,7 +64,7 @@ class SimpleSwitch13(app_manager.RyuApp):
         else:
             flag[int(switch_id)]=0
         
-        
+        #fsb
         try:
             mydb = mysql.connector.connect(
             host="localhost",
