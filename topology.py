@@ -66,7 +66,8 @@ class SimpleSwitch13(app_manager.RyuApp):
         datapath.send_msg(mod)
 
 
-# Switches topology information stored in database topotable(Table Name) 
+# Switches topology information stored in database topotable(Table Name)
+#iiiiiiiii
 
     @set_ev_cls(ofp_event.EventSwitchEnter)
     def handler_switch_enter(self, ev):
